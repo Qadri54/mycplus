@@ -7,8 +7,6 @@ int main(){
     double const genap = 0.15;
     double const lansia = 0.05;
     double const pajak = 0.10;
-    double untungGanjil;
-    double untungGenap;
     double hargaGanjil;
     double hargaGenap;
 
