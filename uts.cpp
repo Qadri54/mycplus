@@ -80,7 +80,7 @@ int main(){
         cout<<"Total keuntungan diskon untuk para lansia dibulan genap adalah: "<<setprecision(16)<<final_LansiaGenap<<endl;
         cout<<"Totalkeuntungan selama satu tahun dengan diskon untuk lansia adalah : "<<setprecision(16)<<final_LansiaGenap+final_LansiaGanjil<<endl;
 
-    }else{
+    }else if(umur >0 && umur<60){
         for(int i=1; i<=6; i++){
             cout<<"masukkan harga barang pada bulan ganjil ke "<<i<<" :";
             cin>>hargaGanjil;
@@ -112,6 +112,8 @@ int main(){
         cout<<"Total keuntungan diskon untuk para lansia dibulan ganjil adalah: "<<setprecision(16)<<final_Ganjil<<endl;
         cout<<"Total keuntungan diskon untuk para lansia dibulan genap adalah: "<<setprecision(16)<<final_Genap<<endl;
         cout<<"Totalkeuntungan selama satu tahun dengan diskon untuk lansia adalah : "<<setprecision(16)<<final_Genap+final_Ganjil<<endl;
+    }else{
+        cout<<"umur anda tidak valid!";
     }
 
     return 0;
